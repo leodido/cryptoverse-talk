@@ -3140,7 +3140,7 @@ Slides - Backgrounds <section class="bg-primary">
 ================================================== */
 /*3 Corp Colors*/
 .bg-primary {
-  background-color: d#44d; }
+  background-color: #44d; }
 
 .bg-secondary {
   background-color: #67d; }
@@ -3673,7 +3673,7 @@ input[type='submit'],
 .button:hover,
 button[type='submit']:hover,
 input[type='submit']:hover {
-  border: 1px solid d#44d; }
+  border: 1px solid #44d; }
 
 button[type='submit'],
 input[type='submit'],
@@ -3681,7 +3681,7 @@ input[type='submit'],
 .button:hover,
 button[type='submit']:hover,
 input[type='submit']:hover {
-  background-color: d#44d;
+  background-color: #44d;
   color: #fff;
   text-shadow: 0 1px 0 #123; }
 
@@ -3711,7 +3711,7 @@ input[type='submit']:active {
 
 .bg-white a.button.ghost,
 .bg-gradient-white a.button.ghost {
-  border: 1px solid d#44d;
+  border: 1px solid #44d;
   color: #333; }
 
 :disabled,
@@ -3722,7 +3722,7 @@ button:disabled:hover {
 
 fieldset {
   background-color: rgba(0, 20, 80, 0.2);
-  border: 1px solid d#44d; }
+  border: 1px solid #44d; }
 
 legend {
   background-color: rgba(0, 0, 0, 0.6);
