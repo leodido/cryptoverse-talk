@@ -91,16 +91,23 @@
   <main role="main">
     <article id="webslides" class="vertical">
 
-      <section class="bg-trans-gradient aligncenter">
+      <section class="bg-trans-gradient">
         <span class="background anim dark" style="background-image:url('static/images/universe00.jpg')"></span>
-        <div class="wrap">
+        <div class="aligncenter">
           <p class="text-subtitle"><code>First dive in</code></p>
           <h1 class="text-landing"><strong>The cryptoverse</strong></h1>
           <p class="text-intro">Digital currency revolution.</p>
         </div>
-      </section>
 
-      <!-- EDIT - slide TOC / intro -->
+        <footer class="bg-gradient-*">
+            <div class="wrap">
+              <p>
+                <a href="https://www.linkedin.com/in/leodidonato" class="alignleft">Leonardo Di Donato</a>
+                <a href="https://github.com/leodido" class="alignright">@leodido</a>
+              </p>
+            </div>
+          </footer>
+      </section>
 
       <section>
         <div class="wrap">
@@ -459,18 +466,11 @@
   </main>
   <!--main-->
 
-  <footer class="bg-gradient-*">
-    <div class="wrap">
-      <p>
-        <a href="https://www.linkedin.com/in/leodidonato" class="alignleft">Leonardo Di Donato</a>
-        <a href="https://github.com/leodido" class="alignright">@leodido</a>
-      </p>
-    </div>
-  </footer>
+  
 
   <script src="static/js/webslides.min.js"></script>
   <script>
-    window.ws = new WebSlides({ loop: false });
+    window.ws = new WebSlides({ loop: false, touch: true });
   </script>
 
   <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
